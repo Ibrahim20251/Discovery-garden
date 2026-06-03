@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovery Gardens - Legon | Recreation Center Accra</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo"> Discovery Gardens</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#visit">Find Us</a></li>
+                <li><a href="#book" class="cta-btn">Book Venue</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Serene Escape in the Heart of Accra</h1>
+            <p>Welcome to Discovery Gardens, Legon. The perfect destination for family recreation, stunning outdoor events, and peaceful nature getaways.</p>
+            <div class="hero-buttons">
+                <a href="#book" class="btn-primary">Plan an Event</a>
+                <a href="#amenities" class="btn-secondary">Explore Grounds</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- AMENITIES SECTION -->
+    <section id="amenities" class="section">
+        <div class="section-title">
+            <h2>Experience Discovery Gardens</h2>
+            <p>Thoughtfully crafted spaces designed for comfort, play, and celebration.</p>
+        </div>
+        <div class="grid-3">
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfjNB1R9D_kimnYxuVmmQEX6F54FtO1_jHhsYxf5pfnggevW24YVLLvhYNfhFPuKdMP3i3NrAW-Hy5V1YsZPSXzCywJer4BpdoyIJ-o1hN7TplnnFJcdMVSFmuXUO8V8CRr0CDBHtQqWeV=s680-w680-h510-rw');"></div>
+                <div class="card-content">
+                    <h3>Event Venue Rentals</h3>
+                    <p>Host breathtaking garden weddings, unforgettable birthday parties, or structured corporate team-building events in our pristine lawns.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZJeFB9nfGLS-9t5FK-95Gag-YQyKZZUhUartCNoc9ByYLQ0x0QTUpTU6BNIHr1oq-MlfTr957e0_YvJFl0uPaeYcTawQASfyQ0AmXzPRQVpomPIljEM6aVH4zy1vRXAWWcpzNYzx6Rq0G=s680-w680-h510-rw');"></div>
+                <div class="card-content">
+                    <h3>Family & Kids Recreation</h3>
+                    <p>Bring the family out for weekend relaxation. Safe, open green spaces perfect for children's activities and outdoor games.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAGlOKX3FGNQ3C37Z7GkSIyZl0OnJxS9L5gZWvtZ2cUh_2Vnu7zxCIlvWZrPjdAierkiASJ13yRE6RSBNMLgAb3R09D4GfgUnQMruLVK02jJoC4eFhGNGcnEOHQ-ykzMwx9iH_X7v_lzDQco=s680-w680-h510-rw');"></div>
+                <div class="card-content">
+                    <h3>Picnics & Relaxing</h3>
+                    <p>Escape the hustle of Accra. Rent an intimate spot or a gazebo to read, share food with friends, and recharge surrounded by nature.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISIT & BOOKING SECTION -->
+    <section id="visit" class="section booking-section">
+        <div class="info-layout">
+            
+            <!-- Quick Details -->
+            <div class="info-details">
+                <h2>Plan Your Visit</h2>
+                
+                <h3> Location</h3>
+                <p>Haatso-Atomic Rd, Accra, Ghana</p>
+                
+                <h3> Call Us</h3>
+                <p>024 222 6004</p>
+                
+                <h3> Operational Hours</h3>
+                <p>Open Daily · Closes at 5:00 PM</p>
+                
+                <h3 class="map-heading"> Find Us on the Map</h3>
+                <p class="map-subtext">Conveniently located off the Haatso-Atomic road, perfect for easy access from Legon, Madina, and central Accra.</p>
+            </div>
+
+            <!-- Booking Request Form -->
+            <div id="book" class="booking-form">
+                <h3>Enquire About Space Booking</h3>
+                <form id="enquiryForm">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="John Doe" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="024 222 6004" required>
+
+                    <label for="eventType">Event Type</label>
+                    <select id="eventType">
+                        <option value="picnic">Family Picnic / Day Pass</option>
+                        <option value="wedding">Garden Wedding</option>
+                        <option value="birthday">Birthday Party</option>
+                        <option value="corporate">Corporate Event</option>
+                    </select>
+
+                    <label for="notes">Additional Request Details</label>
+                    <textarea id="notes" rows="4" placeholder="Estimated number of guests, date, setup requirements..."></textarea>
+
+                    <button type="submit">Submit Enquiry</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Discovery Gardens - Legon. All Rights Reserved.</p>
+        <p class="footer-subtext">Beautiful recreation, events, and memories in Accra.</p>
+    </footer>
+
+    <!-- Linking the external JavaScript file -->
+    <script src="scrpt.js"></script>
+</body>
+</html>
